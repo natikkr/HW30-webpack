@@ -1,0 +1,1 @@
+(()=>{"use strict";class s{constructor(s,e,t,n){this.name=s,this.age=e,this.gender=t,this.interest=n}}const e=new class extends s{}("Alex",25,"male","swimming"),t=new class extends s{constructor(s,e,t,n,o){super(s,e,t,n),this.subject=o}}("Bob",50,"male","snooker");console.log(e),console.log(t)})();
